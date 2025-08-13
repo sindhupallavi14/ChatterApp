@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# ChatterApp 🗨️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time chat application built with **React**, **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. Users can join chat rooms, send messages, see who is online, and receive a welcome message when they join.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Real-time messaging with Socket.IO
+- User onboarding with username input
+- Welcome message for new users
+- Typing indicators
+- User list showing all online users
+- Message history (last 50 messages stored in MongoDB)
+- Responsive design with Bootstrap
+- Avatars generated dynamically from usernames
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **Frontend:** React, Bootstrap
+- **Backend:** Node.js, Express, Socket.IO
+- **Database:** MongoDB, Mongoose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Open the Application**  
+   Navigate to the frontend in your browser (`http://localhost:3000` if running locally).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Onboarding**  
+   - You will see a welcome screen asking for your username.  
+   - Enter a username and click **Join Chat** to enter the chat room.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Chat Interface**  
+   - Once joined, you can see the **Chat Room** interface.  
+   - The **message history** (last 50 messages) from other users will be visible.  
+   - You can type messages in the input box at the bottom and send them.  
+   - A **typing indicator** shows when other users are typing.  
 
-### `npm run eject`
+4. **Welcome Message**  
+   - When you join for the first time, a **welcome message** will appear at the top-right corner of the chat for **9 seconds**.  
+   - This welcome message is visible to all connected users.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **User List**  
+   - On the right side, you can see a list of all **online users** in real-time.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **Notifications**  
+   - Notifications appear when users **join** or **leave** the chat.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
