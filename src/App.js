@@ -1,9 +1,11 @@
 import "./App.css";
+import ChatApp from "./components/ChatApp.jsx";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Sindhu</h1>
+      <ChatApp/>
     </div>
   );
 }
