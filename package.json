@@ -13,6 +13,7 @@
     "express": "^5.1.0",
     "http": "^0.0.1-security",
     "mongoose": "^8.17.1",
+    "path": "^0.12.7",
     "react": "^19.1.1",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1",
@@ -22,7 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://sindhupallavi14.github.io/Chatter-App",
-
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
