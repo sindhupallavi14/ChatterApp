@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chatter-App/static/css/main.1081b4a9.css",
+    "main.js": "/Chatter-App/static/js/main.50d83f78.js",
+    "index.html": "/Chatter-App/index.html",
+    "main.1081b4a9.css.map": "/Chatter-App/static/css/main.1081b4a9.css.map",
+    "main.50d83f78.js.map": "/Chatter-App/static/js/main.50d83f78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1081b4a9.css",
+    "static/js/main.50d83f78.js"
+  ]
+}
